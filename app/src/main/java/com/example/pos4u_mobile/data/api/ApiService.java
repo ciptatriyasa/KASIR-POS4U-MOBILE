@@ -1,5 +1,13 @@
 package com.example.pos4u_mobile.data.api;
 
+import com.example.pos4u_mobile.data.model.auth.AuthRequest;
+import com.example.pos4u_mobile.data.model.auth.RegisterRequest;
+import com.example.pos4u_mobile.data.model.produk.ProductResponse;
+import com.example.pos4u_mobile.data.model.auth.AuthResponse;
+import com.example.pos4u_mobile.data.model.riwayat.DetailRiwayatResponse;
+import com.example.pos4u_mobile.data.model.transaksi.TransactionRequest;
+import com.example.pos4u_mobile.data.model.transaksi.TransactionResponse;
+
 import java.util.List;
 import retrofit2.Call;
 import retrofit2.http.Body;

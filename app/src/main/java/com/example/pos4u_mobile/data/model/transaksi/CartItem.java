@@ -1,4 +1,6 @@
-package com.example.pos4u_mobile.data.model;
+package com.example.pos4u_mobile.data.model.transaksi;
+
+import com.example.pos4u_mobile.data.model.produk.ProductResponse;
 
 public class CartItem {
     private ProductResponse product;

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="pos4u_primary_blue">#0D6EFD</color> <color name="pos4u_success_teal">#20C997</color> <color name="pos4u_dark_slate">#212529</color>   <color name="pos4u_gray_text">#6C757D</color>    <color name="pos4u_background">#F1F3F5</color>   <color name="white">#FFFFFF</color>
 </resources>

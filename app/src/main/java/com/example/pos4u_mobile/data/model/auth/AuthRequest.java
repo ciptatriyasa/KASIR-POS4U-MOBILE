@@ -1,4 +1,4 @@
-package com.example.pos4u_mobile.data.model;
+package com.example.pos4u_mobile.data.model.auth;
 
 import com.google.gson.annotations.SerializedName;
 

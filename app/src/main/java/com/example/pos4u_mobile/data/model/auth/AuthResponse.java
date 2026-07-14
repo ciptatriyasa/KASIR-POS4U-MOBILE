@@ -1,4 +1,4 @@
-package com.example.pos4u_mobile.data.model;
+package com.example.pos4u_mobile.data.model.auth;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -9,13 +9,12 @@ public class AuthResponse {
     @SerializedName("message")
     private String message;
 
-    @SerializedName("token") // Jika backend menggunakan JWT Token
+    @SerializedName("token")
     private String token;
 
-    @SerializedName("role") // Mengetahui apakah login sebagai 'kasir' atau 'admin'
+    @SerializedName("role")
     private String role;
 
-    // Getter dan Setter
     public boolean isStatus() { return status; }
     public String getMessage() { return message; }
     public String getToken() { return token; }

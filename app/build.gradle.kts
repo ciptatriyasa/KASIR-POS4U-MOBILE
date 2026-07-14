@@ -6,6 +6,10 @@ android {
     namespace = "com.example.pos4u_mobile"
     compileSdk = 36 // Sederhanakan penulisan compileSdk agar stabil
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.pos4u_mobile"
         minSdk = 26
