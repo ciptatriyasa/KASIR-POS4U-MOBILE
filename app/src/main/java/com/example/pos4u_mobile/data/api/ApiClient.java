@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
     // Sesuaikan URL dengan IP lokal komputer / domain hosting POS4U Anda
-    private static final String BASE_URL = "http://192.168.1.67/programkasir/public/";
+    private static final String BASE_URL = "http://192.168.1.67:8080/programkasir/";
     private static Retrofit retrofit = null;
 
     public static ApiService getClient() {
